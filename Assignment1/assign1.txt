@@ -1,0 +1,77 @@
+man pwd
+uname == Linux
+pwd == /home/sunbeam/Jaykumar-Git-Data
+hostname == sunbeam-Modern-14-B5M
+date == Monday 20 May 2024 05:39:48 PM IST
+cal
+
+      May 2024        
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30 31     
+
+ls == CPP  DBT  Java-with-OOP  OSC_SDM
+dir == CPP  DBT  Java-with-OOP  OSC_SDM
+cat > dac.txt
+This is DAC Course
+Lecture - Krishna
+We are learning OSC
+
+cat >> dac.txt
+This is Dac class
+we are learning Linux Commands
+
+cp == dac.txt karad.txt
+ls == assign1.txt  dac.txt  karad.txt
+
+mkdir practice
+ls == assign1.txt  dac.txt  karad.txt  practice
+cp == karad.txt practice
+
+mkdir game
+ls == assign1.txt  dac.txt  game  karad.txt  practice
+cp == practice game
+cp -r practice game
+
+mv dac.txt game
+sunbeam@sunbeam-Modern-14-B5M:~/Jaykumar-Git-Data/OSC_SDM$ ls
+assign1.txt  game  karad.txt  practice
+sunbeam@sunbeam-Modern-14-B5M:~/Jaykumar-Git-Data/OSC_SDM$ cd game
+sunbeam@sunbeam-Modern-14-B5M:~/Jaykumar-Git-Data/OSC_SDM/game$ ls
+dac.txt  practice
+sunbeam@sunbeam-Modern-14-B5M:~/Jaykumar-Git-Data/OSC_SDM/game$ mv dac.txt OSC_SDM
+sunbeam@sunbeam-Modern-14-B5M:~/Jaykumar-Git-Data/OSC_SDM/game$ cd ..
+sunbeam@sunbeam-Modern-14-B5M:~/Jaykumar-Git-Data/OSC_SDM$ ls
+assign1.txt  game  karad.txt  practice
+
+sunbeam@sunbeam-Modern-14-B5M:~/Jaykumar-Git-Data/OSC_SDM$ tac karad.txt
+we are learning Linux Commands
+This is Dac class
+We are learning OSC
+Lecture - Krishna
+This is DAC Course
+sunbeam@sunbeam-Modern-14-B5M:~/Jaykumar-Git-Data/OSC_SDM$ rev karad.txt
+esruoC CAD si sihT
+anhsirK - erutceL
+CSO gninrael era eW
+ssalc caD si sihT
+sdnammoC xuniL gninrael era ew
+
+sunbeam@sunbeam-Modern-14-B5M:~/Jaykumar-Git-Data/OSC_SDM$ wc karad.txt
+  5  20 106 karad.txt
+
+sunbeam@sunbeam-Modern-14-B5M:~/Jaykumar-Git-Data/OSC_SDM$ ps
+    PID TTY          TIME CMD
+  17284 pts/0    00:00:00 bash
+  21192 pts/0    00:00:00 ps
+
+sunbeam@sunbeam-Modern-14-B5M:~/Jaykumar-Git-Data/OSC_SDM$ sort -r karad.txt
+We are learning OSC
+we are learning Linux Commands
+This is DAC Course
+This is Dac class
+Lecture - Krishna
+
