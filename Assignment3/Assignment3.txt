@@ -1,0 +1,28 @@
+ls == sunbeam@sunbeam-Modern-14-B5M:~$ ls -A
+ .bash_history    Java                Public
+ .bash_logout     Jaykumar-Git-Data  'Sham Data'
+ .bashrc          .lesshst            snap
+ .cache           .local              .ssh
+ .config          .mongodb            .sts4
+ Day15            .mozilla            STS4
+ Desktop          Music               .sudo_as_admin_successful
+ Documents        .my.cnf             Sunbeam-Git-Data
+ .dotnet          myself.txt          .swt
+ Downloads        .mysql_history      Templates
+ .eclipse         Password            .thunderbird
+ Exam             Pictures            Transfer
+'Github Tokens'   .pki                Videos
+ .gnupg           Print               .viminfo
+ Hackathon        .profile            .vscode
+
+
+whoami == sunbeam@sunbeam-Modern-14-B5M:~$ whoami
+sunbeam
+
+users == sunbeam@sunbeam-Modern-14-B5M:~$ users
+sunbeam
+
+who == sunbeam@sunbeam-Modern-14-B5M:~$ who
+sunbeam  tty2         2024-05-22 22:55 (tty2)
+
+tty == sunbeam@sunbeam-Modern-14-B5M:~$ tty/dev/pts/0
